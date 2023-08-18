@@ -216,10 +216,10 @@ end)
 
 tpb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
-	
+
 	if hum then
-		local ani = hum:LoadAnimation(tpose)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(tpose):Play()
 	end
 end)
 
@@ -228,8 +228,8 @@ db.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
 
 	if hum then
-		local ani = hum:LoadAnimation(dab)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(dab):Play()
 	end
 end)
 
@@ -238,8 +238,8 @@ ssb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
 
 	if hum then
-		local ani = hum:LoadAnimation(ss)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(ss):Play()
 	end
 end)
 
@@ -248,53 +248,55 @@ sohb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
 
 	if hum then
-		local ani = hum:LoadAnimation(soh)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(soh):Play()
 	end
 end)
 
 flb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
-	
+
 	if hum then
-		local ani = hum:LoadAnimation(flip)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(flip):Play()
 	end
 end)
 
 flyb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+
 	if hum then
-		local ani = hum:LoadAnimation(fly)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(fly):Play()
 	end
 end)
 
 flossb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+
 	if hum then
-		local ani = hum:LoadAnimation(floss)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(floss):Play()
 	end
 end)
 
 pub.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+
 	if hum then
-		local ani = hum:LoadAnimation(punches)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(punches):Play()
 	end
 end)
 
 kazb.MouseButton1Click:Connect(function()
 	local hum = plr.Character:FindFirstChildOfClass("Humanoid")
+
 	if hum then
-		local ani = hum:LoadAnimation(kazotsky)
-		ani:Play()
+		local animator: Animator = hum:FindFirstChildOfClass("Animator")
+		animator:LoadAnimation(kazotsky):Play()
 	end
 end)
 
 --an Emote Gui specialy for R6
---cool right?
---yeah cool
 --BY GLITCHFOG
